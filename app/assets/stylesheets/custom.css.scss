@@ -1,0 +1,72 @@
+$navbar-default-bg:  #00cc66;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('Rick.jpg');
+  background-size:cover;
+  height: 750px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align:center;
+  margin-bottom: 1.5em;
+}
+
+.btn-xlarge {
+  font-size:1.5em;
+  background-color: #00cc66;
+  border: none;
+
+}
+
+.btn-xlarge:hover {
+  font-size:1.5em;
+  background-color: #00ee66;
+  border: none;
+
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+footer a{  color:#00cc66; text-decoration: none;}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style:none;
+}
+
+footer ul li {
+  float: left;
+}
+
+.navbar-default .navbar-nav > li > a { color:#fff }
+
+
